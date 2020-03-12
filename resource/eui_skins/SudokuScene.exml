@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SudokuSceneSkin" width="419" height="419" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="170ccfa0df0" ></w:Config>
+	<e:Rect width="100%" height="100%" x="0" y="0"/>
+	<e:Group width="100%" height="100%" x="2" y="2">
+		<e:layout>
+			<e:TileLayout horizontalGap="2" verticalGap="2"/>
+		</e:layout>
+		<ns1:NineGrid id="nine_0" x="269" y="160"/>
+		<ns1:NineGrid x="279" y="170" id="nine_1"/>
+		<ns1:NineGrid x="289" y="180" id="nine_2"/>
+		<ns1:NineGrid x="299" y="190" id="nine_3"/>
+		<ns1:NineGrid x="309" y="200" id="nine_4"/>
+		<ns1:NineGrid x="319" y="210" id="nine_5"/>
+		<ns1:NineGrid x="329" y="220" id="nine_6"/>
+		<ns1:NineGrid x="339" y="230" id="nine_7"/>
+		<ns1:NineGrid x="349" y="240" id="nine_8"/>
+	</e:Group>
+</e:Skin>

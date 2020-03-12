@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GridSkin" width="45" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="170ccf47dcf" ></w:Config>
+	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0xeeeeee"/>
+	<e:Group id="hint" width="100%" height="100%" x="0" y="0">
+		<e:Label id="hint_1" text="1" x="10" y="10" size="12" width="15" height="15" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+		<e:Label id="hint_2" text="2" x="20" y="20" size="12" width="15" height="15" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+		<e:Label id="hint_3" text="3" x="30" y="30" size="12" width="15" height="15" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+		<e:Label id="hint_4" text="4" x="40" y="40" size="12" width="15" height="15" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+		<e:Label id="hint_5" text="5" x="50" y="50" size="12" width="15" height="15" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+		<e:Label id="hint_6" text="6" x="60" y="60" size="12" width="15" height="15" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+		<e:Label id="hint_7" text="7" x="70" y="70" size="12" width="15" height="15" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+		<e:Label id="hint_8" text="8" x="80" y="80" size="12" width="15" height="15" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+		<e:Label id="hint_9" text="9" x="90" y="90" size="12" width="15" height="15" verticalAlign="middle" textAlign="center" textColor="0x000000"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="0" verticalGap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:TextInput id="ans" width="45" height="45" x="0" y="0" restrict="1-9" maxChars="1"/>
+</e:Skin>
