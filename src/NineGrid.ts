@@ -30,7 +30,7 @@ class NineGrid extends eui.Component implements eui.UIComponent {
 	private getValueList(): number[] {
 		let result: number[] = [];
 		this.gridList.forEach((v: Grid) => {
-			result.push(v.getValue());
+			result.push(v.getDefaultNumber());
 		}, this);
 		return result;
 	}

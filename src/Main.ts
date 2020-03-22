@@ -59,13 +59,9 @@ class Main extends eui.UILayer {
 
     private async runGame() {
         await this.loadResource()
-        this.createGameScene();
-        const result = await RES.getResAsync("description_json")
-        this.startAnimation(result);
-        await platform.login();
-        const userInfo = await platform.getUserInfo();
-        console.log(userInfo);
 
+        let s: SudokuScene = new SudokuScene();
+        this.addChild(s);
     }
 
     private async loadResource() {
@@ -100,6 +96,7 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
+
         let sky = this.createBitmapByName("bg_jpg");
         this.addChild(sky);
         let stageW = this.stage.stageWidth;
@@ -156,9 +153,6 @@ class Main extends eui.UILayer {
         button.verticalCenter = 0;
         this.addChild(button);
         button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
-
-        let s: SudokuScene = new SudokuScene();
-        this.addChild(s);
     }
     /**
      * 根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。
